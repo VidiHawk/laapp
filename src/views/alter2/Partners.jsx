@@ -6,23 +6,23 @@ const params = {
   loop: true,
   autoplay: {
     delay: 2500,
-    disableOnIteration: false
+    disableOnIteration: false,
   },
   slidesPerView: 5,
-  spaceBetween: 30
+  spaceBetween: 30,
 };
 
 const Partners = () => {
   return (
-    <section class="section">
-      <div class="container py-5 border-bottom">
+    <section className="section">
+      <div className="container py-5 border-bottom">
         <Swiper {...params}>
-          {[1, 2, 3, 4, 5, 6].map(i => (
-            <div class="swiper-slide">
+          {[1, 2, 3, 4, 5, 6].map((i) => (
+            <div className="swiper-slide" key={"swiper" + i}>
               <img
-                src={require(`assets/img/logos/${i}.png`)}
-                class="img-responsive"
-                alt=""
+                src={require(`assets/img/logos/${i}.svg`)}
+                className="img-responsive"
+                alt="logos"
                 style={{ maxHeight: "60px" }}
               />
             </div>

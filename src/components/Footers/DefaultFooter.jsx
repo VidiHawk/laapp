@@ -10,16 +10,20 @@ const DefaultFooter = () => {
       <Container className="py-3">
         <Row className="row gap-y text-center text-md-left">
           <Col md="4" className="mr-auto">
-            <img
+            {/* <img
               src={require("assets/img/logo-light.png")}
               alt=""
               className="logo"
-            />
-
-            <p>
-              Laapp, a carefully crafted and powerful HTML5 template, it's
-              perfect to showcase your App or Startup
-            </p>
+            /> */}
+            <address className="py-2 text-contrast">
+              <b>Vidi Rendering Technologies</b>
+              <div className="space"></div>
+              Avenue Louise 54 | Brussels
+              <div className="space"></div>
+              663 Clearwater Bay rd | Hong Kong
+              <div className="space"></div>
+              8383 Wilshire Blvd | Los Angeles
+            </address>
           </Col>
 
           <Col md="2">
@@ -65,11 +69,11 @@ const DefaultFooter = () => {
           </Col>
 
           <Col md="2">
-            <h6 className="py-2 small">Follow us</h6>
+            {/* <h6 className="py-2 small">Follow us</h6> */}
 
-            <nav className="nav justify-content-around">
+            <nav className="py-2 nav justify-content-around">
               <a
-                href="https://facebook.com/5studios.net"
+                href="#!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-circle btn-sm brand-facebook"
@@ -89,19 +93,16 @@ const DefaultFooter = () => {
         <hr className="mt-5 op-5" />
 
         <Row className="small">
-          <Col md="4">
+          <p className="mt-2 mb-0 text-center text-md-left">
+            © {new Date().getFullYear()}
+            &nbsp;Vidi Rendering Technologies. All Rights Reserved
+          </p>
+          {/* <Col md="4">
             <p className="mt-2 mb-0 text-center text-md-left">
               © {new Date().getFullYear()}
-              <a
-                href="https://5studios.net"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                5studios
-              </a>
-              . All Rights Reserved
+              &nbsp;Vidi Rendering Technologies. All Rights Reserved
             </p>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>

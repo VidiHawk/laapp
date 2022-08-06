@@ -10,7 +10,7 @@ class DefaultNavbar extends React.Component {
     super(props);
 
     this.state = {
-      navbarExpanded: false
+      navbarExpanded: false,
     };
 
     this.navbar = React.createRef();
@@ -19,8 +19,8 @@ class DefaultNavbar extends React.Component {
   }
 
   toggleNavbar() {
-    this.setState(prevState => ({
-      navbarExpanded: !prevState.navbarExpanded
+    this.setState((prevState) => ({
+      navbarExpanded: !prevState.navbarExpanded,
     }));
   }
 
@@ -68,20 +68,20 @@ class DefaultNavbar extends React.Component {
           <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
             {useOnlyDarkLogo ? (
               <img
-                alt="..."
-                src={require("assets/img/logo.png")}
+                alt="Vidiren"
+                src={require("assets/img/logo.svg")}
                 className="logo logo-sticky"
               />
             ) : (
               <>
                 <img
-                  src={require("assets/img/logo.png")}
-                  alt="Laapp"
-                  className="logo logo-sticky d-block d-md-none"
+                  src={require("assets/img/logo-text.svg")}
+                  alt="Vidiren"
+                  className="logo logo-sticky d-block d-md-none pl"
                 />
                 <img
-                  src={require("assets/img/logo-light.png")}
-                  alt="Laapp"
+                  src={require("assets/img/logo.svg")}
+                  alt="Vidiren"
                   className="logo d-none d-md-block"
                 />
               </>
@@ -92,7 +92,7 @@ class DefaultNavbar extends React.Component {
             <div className="sidebar-brand">
               <Link to="/">
                 <img
-                  src={require("assets/img/logo.png")}
+                  src={require("assets/img/logo.svg")}
                   alt="Laapp Template"
                   className="logo"
                 />

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const DemoCard = props => {
+const DemoCard = (props) => {
   const demo = props.demo;
 
   return (

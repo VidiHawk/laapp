@@ -29,7 +29,7 @@ class Alternative3 extends React.Component {
           {/* Alternative 3 specific components */}
           <Heading />
           <IsometricMockups />
-          <Partners />
+          {/* <Partners /> */}
 
           {/* Shared Components */}
           <PowerfulFeatures />

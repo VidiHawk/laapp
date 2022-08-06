@@ -5,23 +5,21 @@ import MoreInfoButton from "components/MoreInfoButton.jsx";
 const renderBubbles = () => {
   let bubbles = [];
   const items = [
-    { icon: "apx", name: "Autoprefixer" },
-    { icon: "bs", name: "Bootstrap" },
-    { icon: "cordova", name: "Cordova" },
+    { icon: "rust", name: "Rust" },
+    { icon: "lisp", name: "Lisp" },
+    { icon: "tf", name: "Tensorflow" },
     { icon: "css", name: "CSS" },
-    { icon: "fa", name: "Fontawesome" },
+    { icon: "git", name: "Git" },
     { icon: "html", name: "HTML" },
-    { icon: "js", name: "Javascript" },
-    { icon: "npm", name: "Npm" },
-
-    { icon: "sass", name: "SASS" },
-    { icon: "apx", name: "Autoprefixer" },
-    { icon: "bs", name: "Bootstrap" },
-    { icon: "cordova", name: "Cordova" },
-    { icon: "css", name: "CSS" },
-    { icon: "fa", name: "Fontawesome" },
-    { icon: "html", name: "HTML" },
-    { icon: "js", name: "Javascript" }
+    { icon: "unreal", name: "Unreal Engine" },
+    { icon: "cpp", name: "C++" },
+    { icon: "python", name: "Python" },
+    { icon: "numpy", name: "Numpy" },
+    { icon: "react", name: "React" },
+    { icon: "js", name: "JavaScript" },
+    { icon: "gql", name: "GraphQL" },
+    { icon: "docker", name: "Docker" },
+    { icon: "eth", name: "Ethereum" },
   ];
 
   items.forEach((bubble, i) => {
@@ -34,7 +32,7 @@ const renderBubbles = () => {
         className={`bubble bg-contrast rounded-circle p-2 shadow icon icon-${iconSize}`}
       >
         <img
-          src={require(`assets/img/demo/header/${bubble.icon}.svg`)}
+          src={require(`assets/img/bubbles/${bubble.icon}.svg`)}
           alt=""
           className="img-responsive"
         />
@@ -60,12 +58,12 @@ const Integration = () => {
           <Col md="6">
             <div className="section-heading">
               <p className="text-alternate text-uppercase bold">
-                Extending core
+                Excellence in coding
               </p>
-              <h2 className="heading-line">Integrations to make it better</h2>
+              <h2 className="heading-line">Elegance and Performance</h2>
               <p className="lead text-muted">
-                Ever wonder about the wonder of Laap: We count on hundreds of
-                friends contributing day by day to make Laapp a wonderful tool
+                We live and dream in code. We blend stacks into exquisite
+                recipes. Building, breaking and rebuilding to reach perfection.
               </p>
             </div>
 

@@ -19,7 +19,7 @@ const animations = [
   { duration: 500, delay: 0 },
   { duration: 500, delay: 0 },
   { duration: 500, delay: 100 },
-  { duration: 500, delay: 0 }
+  { duration: 500, delay: 0 },
 ];
 
 const Heading = () => {
@@ -27,8 +27,11 @@ const Heading = () => {
     <header className="header alter1-header section text-contrast">
       <div className="shapes-container">
         {animations.map((el, i) => (
-          <Fade bottom duration={el.duration} delay={el.delay} key={i}>
-            <div className="shape shape-animated shape-diagonal" key={i} />
+          <Fade bottom duration={el.duration} delay={el.delay} key={"fade" + i}>
+            <div
+              className="shape shape-animated shape-diagonal"
+              key={"shape" + i}
+            />
           </Fade>
         ))}
       </div>
@@ -45,7 +48,7 @@ const Heading = () => {
             </span>
 
             <h1 className="text-contrast display-4 display-md-3">
-              <span className="bold">Laapp</span>
+              <span className="bold">Vidiren</span>
             </h1>
             <p className="lead bold">Premium Startup &amp; App Landing Page</p>
 

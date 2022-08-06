@@ -1,34 +1,54 @@
 import React from "react";
 
-// index page sections
-import Header from "./index/Header.jsx";
-import Palette from "./index/Palette.jsx";
-import Selection from "./index/Selection.jsx";
-import Themeable from "./index/Themeable.jsx";
-import Nwyneed from "./index/Nwyneed.jsx";
-import GetStarted from "./index/GetStarted.jsx";
-import Footer from "./index/Footer.jsx";
+// shared page components
+// import MultipleDesignBlocks from "./shared/MultipleDesignBlocks.jsx";
+// import FeaturesCantMiss from "./shared/FeaturesCantMiss.jsx";
+// import Pricing from "./shared/Pricing.jsx";
+import Integration from "./shared/Integration.jsx";
+// import WhyUs from "./shared/WhyUs.jsx";
+// import Faqs from "./shared/Faqs.jsx";
+import StartFree from "./shared/StartFree.jsx";
+import Subscribe from "./shared/Subscribe.jsx";
+import PowerfulFeatures from "./shared/PowerfulFeatures.jsx";
 
-//import "assets/sass/laapp.scss";
-import "assets/sass/demo.scss";
+// core components
+import DefaultNavbar from "components/Navbars/DefaultNavbar.jsx";
+import DefaultFooter from "components/Footers/DefaultFooter.jsx";
 
-class Index extends React.Component {
+// alternative 2 page components
+import Heading from "./alter2/Heading.jsx";
+import Partners from "./alter2/Partners.jsx";
+import Features from "./alter2/Features.jsx";
+import Proposal from "./alter1/Proposal.jsx";
+
+class Alternative2 extends React.Component {
   render() {
     return (
       <>
+        <DefaultNavbar useOnlyDarkLogo={true} />
         <main ref="main">
-          <Header />
-          <Palette />
-          <Selection />
-          <Themeable />
-          <Nwyneed />
-          <GetStarted />
-        </main>
+          {/* Alternative 2 specific components */}
+          <Heading />
+          <Partners />
+          <Features />
 
-        <Footer />
+          {/* Shared Components */}
+          {/* <MultipleDesignBlocks /> */}
+          <Integration />
+          {/* <FeaturesCantMiss /> */}
+          <Proposal />
+          <PowerfulFeatures />
+          {/* <Pricing /> */}
+
+          {/* <WhyUs /> */}
+          {/* <Faqs /> */}
+          <StartFree />
+          <Subscribe />
+        </main>
+        <DefaultFooter />
       </>
     );
   }
 }
 
-export default Index;
+export default Alternative2;

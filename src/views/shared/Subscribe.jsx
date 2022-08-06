@@ -10,8 +10,7 @@ const Subscribe = () => {
           <div className="section-heading text-center">
             <h2 className="heading-line">Stay tunned</h2>
             <p className="lead text-alternate">
-              By registering with us you will receive right in your inbox all
-              new features and updates
+              Receive everything Vidiren right in your inbox
             </p>
           </div>
 

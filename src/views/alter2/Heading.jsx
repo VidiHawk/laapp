@@ -15,7 +15,7 @@ const shapes = [
   { duration: 1000, delay: 100 },
 
   { duration: 1000, delay: 100 },
-  { duration: 1000, delay: 300 }
+  { duration: 1000, delay: 300 },
 ];
 
 const Heading = () => {
@@ -24,7 +24,7 @@ const Heading = () => {
       <div className="shapes-container">
         {/* diagonal shapes */}
         {shapes.map((shape, i) => (
-          <Fade bottom>
+          <Fade bottom key={"fade" + i}>
             <div
               className="shape shape-animated shape-diagonal"
               duration={shape.duration}
@@ -77,51 +77,62 @@ const Heading = () => {
       <Container>
         <Row>
           <Col md="6">
-            <span className="rounded-pill shadow-box bg-contrast text-dark bold py-2 px-4">
+            {/* <span className="rounded-pill shadow-box bg-contrast text-dark bold py-2 px-4">
               <FontAwesomeIcon
                 icon={["far", "lightbulb"]}
                 className="text-primary mr-2"
               />
               <span className="text-primary">Awesome</span> Landing Page
-            </span>
+            </span> */}
 
-            <h1 className="display-4 display-md-2 mt-3">
-              <span className="bold">Laapp</span>
+            <h1 className="display-4 display-md-2 mt-1">
+              <span className="bold">Vidiren</span>
             </h1>
             <p className="lead bold text-primary">
-              Premium Startup &amp;{" "}
-              <span className="head-line-2">App Landing Page</span>
+              Shaping the flow of electrons &nbsp;
+              <span className="head-line-2">
+                to advance information technologies
+              </span>
             </p>
 
             <p className="lead">
-              Besides its beautiful design. Laapp is an incredibly rich core
-              framework for you to showcase your App.
+              Vidi Rendering Technologies is a team focused on artificial
+              intelligence, fintech and media rendering.
             </p>
 
-            <nav className="nav my-5">
+            <nav className="nav my-6">
               <a
-                href="#!"
+                href="mailto:info@vidiren.com"
                 className="btn btn-rounded btn-alternate mr-2 mr-md-5"
               >
-                Know more{" "}
+                Contact us{" "}
                 <FontAwesomeIcon
                   icon={["fas", "long-arrow-alt-right"]}
                   className="ml-2"
                 />
               </a>
-              <a
+              {/* <a
                 href="#demos"
                 className="btn btn-rounded btn-outline-alternate scrollto"
               >
                 Free trial
-              </a>
+              </a> */}
             </nav>
           </Col>
 
-          <Col md="6">
-            <div className="iphone front mx-auto">
+          <Col md="5">
+            {/* <div className="renata">
+              <img
+                src={require("assets/img/screens/app/video.png")}
+                alt="Vidiren video commerce"
+              />
+            </div> */}
+            <div className="iphone-x front mx-auto">
               <div className="screen shadow-box">
-                <img src={require("assets/img/screens/app/3.png")} alt="..." />
+                <img
+                  src={require("assets/img/screens/app/rena.jpg")}
+                  alt="..."
+                />
               </div>
               <div className="notch" />
             </div>

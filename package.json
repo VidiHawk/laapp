@@ -1,19 +1,19 @@
 {
-  "name": "laap-app-landing-page",
+  "name": "vidiren-landing-page",
   "version": "1.0.0",
-  "description": "Lapp react version",
+  "description": "Vidiren 2022 website ©Vidi Rendering Technologies",
   "main": "index.js",
   "keywords": [
-    "react",
-    "reactjs",
-    "laapp",
-    "laapp-react",
-    "design-react",
-    "react-kit",
-    "design-system-react"
+    "vidiren",
+    "video commerce",
+    "video shop",
+    "ecommerce from videos",
+    "shop on videos",
+    "video website builder",
+    "video ecommerce"
   ],
-  "author": "5studios.net",
-  "homepage": "https://5studios.net/themes/laapp-react",
+  "author": "Vidi Rendering Technologies Ltd",
+  "homepage": "https://vidiren.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
