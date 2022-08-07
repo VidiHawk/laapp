@@ -134,7 +134,7 @@ const Heading = () => {
                   alt="..."
                 />
               </div>
-              <div className="notch" />
+              {/* <div className="notch" /> */}
             </div>
           </Col>
         </Row>

@@ -33,12 +33,13 @@ const Proposal = () => {
           </Col>
 
           <Col md="6">
-            <h2 className="heading-line">Our Landing Page proposal</h2>
+            <h2 className="heading-line">A user centric approach</h2>
             <p className="lead text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              exercitationem impedit perspiciatis quis voluptas. Accusamus
-              eligendi iusto laborum mollitia nostrum nulla optio perferendis,
-              repellendus rerum similique suscipit temporibus vero voluptatibus!
+              We use first principle methodologies to engineers solutions that
+              add value to the user. We write software that utilize the device's
+              capabilities to the extreme. We maximize compute power while
+              minimizing power consumption. We design algorithms that redefine
+              the boundaries of what hardware can do!
             </p>
           </Col>
         </Row>

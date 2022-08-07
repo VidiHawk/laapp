@@ -3,40 +3,41 @@ import { Container, Row, Col } from "reactstrap";
 import PowerfulCard from "./PowerfulCard.jsx";
 import MoreInfoButton from "components/MoreInfoButton.jsx";
 
-const createCards = use => {
+const createCards = (use) => {
   let features = [];
   let cards = [
     {
       class: "mt-6 mt-6 mx-lg-auto",
-      icon: "paint-bucket",
+      icon: "edit",
       title: "Customizable",
       animation: { delay: 0 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+      description:
+        "Every business can now create their own video commerce site",
     },
 
     {
       class: "mx-lg-auto",
       icon: "light",
-      title: "Creative",
+      title: "Intuitive",
       animation: { delay: 800 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+      description: "The most natural way for a user to shop online",
     },
 
     {
       class: "mr-lg-auto",
-      icon: "diamond",
-      title: "Powerful Design",
+      icon: "phone",
+      title: "Mobile-first",
       animation: { delay: 500 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+      description: "Truly designed for mobile, reinventing shopping",
     },
 
     {
       class: "mt-6n mr-lg-auto",
-      icon: "cash",
-      title: "Affordable",
+      icon: "rocket",
+      title: "Speed",
       animation: { delay: 1200 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    }
+      description: "It loads super fast, even on poor Internet connections",
+    },
   ];
 
   cards.forEach((el, i) => {
@@ -70,20 +71,18 @@ const PowerfulFeatures = () => {
           <Col lg="5" className="order-lg-last">
             <div className="section-heading">
               <p className="px-2 text-alternate text-uppercase bold">
-                Powerful features await for you
+                Featured product
               </p>
-              <h2 className="heading-line">
-                A complete feature stack ready to help you
-              </h2>
+              <h2 className="heading-line">The future of online shopping</h2>
 
               <p className="lead text-muted my-4 semi-bold">
-                Laboris nisi ut aliquip ex ea commodo consequat.
+                The first video website builder in the world
               </p>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscig elit, sed do
-                eiusmod tempor incididunt ut labore aliqua. Ut enim adi minim
-                veniam, quis nostrud exercitation{" "}
+                Imagine a website in your browser where each page is a
+                full-screen video. You can navigate by swiping through videos,
+                and tap to add products to your cart{" "}
               </p>
 
               <MoreInfoButton
