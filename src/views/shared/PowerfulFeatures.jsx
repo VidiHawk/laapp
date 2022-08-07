@@ -51,7 +51,7 @@ const createCards = (use) => {
 
 const PowerfulFeatures = () => {
   return (
-    <section className="section alter3-features">
+    <section className="section alter3-features" id="product">
       <div className="shapes-container">
         <div className="shape shape-ring shape-ring-1">
           <div className="animation animation--rotating" />
@@ -68,7 +68,7 @@ const PowerfulFeatures = () => {
 
       <Container>
         <Row>
-          <Col lg="5" className="order-lg-last">
+          <Col lg="5" className="order-lg-last" id="product">
             <div className="section-heading">
               <p className="px-2 text-alternate text-uppercase bold">
                 Featured product

@@ -20,7 +20,7 @@ const shapes = [
 
 const Heading = () => {
   return (
-    <header className="header alter2-header section">
+    <header className="header alter2-header section" id="home">
       <div className="shapes-container">
         {/* diagonal shapes */}
         {shapes.map((shape, i) => (

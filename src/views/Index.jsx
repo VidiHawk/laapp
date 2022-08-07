@@ -25,7 +25,7 @@ class Alternative2 extends React.Component {
   render() {
     return (
       <>
-        <DefaultNavbar useOnlyDarkLogo={true} />
+        <DefaultNavbar useOnlyDarkLogo={false} />
         <main ref="main">
           {/* Alternative 2 specific components */}
           <Heading />

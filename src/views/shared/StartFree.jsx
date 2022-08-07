@@ -30,7 +30,7 @@ const renderIcons = () => {
 
 const StartFree = () => {
   return (
-    <section className="section start-free">
+    <section className="section start-free" id="contact">
       <div className="shapes-container">{renderIcons()}</div>
 
       <Container>
