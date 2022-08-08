@@ -1,26 +1,46 @@
-/* PANTONE 16-1546 Living Coral
- * Theme inspired by the following entry
- * https://design.tutsplus.com/articles/pantone-color-of-the-year-2019--cms-32338
- *
- * Taking the palette from the exploration tab according to Pantone site
- * https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019-palette-exploration
- *
- * Feel free to modify the palette according to your needs
- */
+.blue-primary {
+        color: #007cb7
+}
  
-$auxiliary: #fe2983;
+// $auxiliary: #fe2983;
+$auxiliary: #a17f02;
 
-$living-coral-dark-5x: #803730;
-$living-coral-dark-4x: #984139;
-$living-coral-dark-3x: #b14d43;
-$living-coral-dark-2x: #cb584d;
-$living-coral-dark: #e56357;
-$living-coral: #ff6f61;
-$living-coral-light: #ff8c7c;
-$living-coral-light-2x: #ffa597;
-$living-coral-light-3x: #ffbdb1;
-$living-coral-light-4x: #ffd3cb;
-$living-coral-light-5x: #ffeae5;
+
+// $living-coral-dark-5x: #803730;
+// $living-coral-dark-4x: #984139;
+// $living-coral-dark-3x: #b14d43;
+// $living-coral-dark-2x: #cb584d;
+// $living-coral-dark: #e56357;
+// $living-coral: #ff6f61;
+// $living-coral-light: #ff8c7c;
+// $living-coral-light-2x: #ffa597;
+// $living-coral-light-3x: #ffbdb1;
+// $living-coral-light-4x: #ffd3cb;
+// $living-coral-light-5x: #ffeae5;
+
+$living-coral-dark-5x: #cb923d;
+$living-coral-dark-4x: #EFAC47;
+$living-coral-dark-3x: #E6B138;
+$living-coral-dark-2x: #ddb628;
+$living-coral-dark: #F7CA2D;
+$living-coral: #f8d249;
+$living-coral-light: #ffe713;
+$living-coral-light-2x: #fce942;
+$living-coral-light-3x: #f9ec74;
+$living-coral-light-4x: #fbf2a3;
+$living-coral-light-5x: #fbf8d7;
+
+// $living-coral-dark-5x: #827608;
+// $living-coral-dark-4x: #9a8c0b;
+// $living-coral-dark-3x: #a6970c;
+// $living-coral-dark-2x: #b2a20d;
+// $living-coral-dark: #c8b610;
+// $living-coral: #e4cf12;
+// $living-coral-light: #ffe713;
+// $living-coral-light-2x: #fce942;
+// $living-coral-light-3x: #f9ec74;
+// $living-coral-light-4x: #fbf2a3;
+// $living-coral-light-5x: #fbf8d7;
 
 $ibiza-blue-dark-5x: #084166;
 $ibiza-blue-dark-4x: #084c76;
@@ -34,29 +54,66 @@ $ibiza-blue-light-3x: #7bb0df;
 $ibiza-blue-light-4x: #95c2ec;
 $ibiza-blue-light-5x: #afd4fa;
 
-$amberglow-dark-5x: #b83604;
-$amberglow-dark-4x: #bf4512;
-$amberglow-dark-3x: #c7531d;
-$amberglow-dark-2x: #ce5f28;
-$amberglow-dark: #d56d33;
-$amberglow: #dc793e;
-$amberglow-light: #e68f5e;
-$amberglow-light-2x: #efa57b;
-$amberglow-light-3x: #f6bc9c;
-$amberglow-light-4x: #fbd2bc;
-$amberglow-light-5x: #fee9de;
+// $amberglow-dark-5x: #b83604;
+// $amberglow-dark-4x: #bf4512;
+// $amberglow-dark-3x: #c7531d;
+// $amberglow-dark-2x: #ce5f28;
+// $amberglow-dark: #d56d33;
+// $amberglow: #dc793e;
+// $amberglow-light: #e68f5e;
+// $amberglow-light-2x: #efa57b;
+// $amberglow-light-3x: #f6bc9c;
+// $amberglow-light-4x: #fbd2bc;
+// $amberglow-light-5x: #fee9de;
 
-$radiant-yellow-dark-5x: #8c5101;
-$radiant-yellow-dark-4x: #a15f06;
-$radiant-yellow-dark-3x: #b76e0c;
-$radiant-yellow-dark-2x: #ce7e13;
-$radiant-yellow-dark: #e48e1a;
-$radiant-yellow: #fc9e21;
-$radiant-yellow-light: #feab47;
-$radiant-yellow-light-2x: #feb868;
-$radiant-yellow-light-3x: #fdc586;
-$radiant-yellow-light-4x: #fad2a4;
-$radiant-yellow-light-5x: #f5dfc3;
+$amberglow-dark-5x: #4e4706;
+$amberglow-dark-4x: #635a08;
+$amberglow-dark-3x: #93850a;
+$amberglow-dark-2x: #c0ae0e;
+$amberglow-dark: #dfca10;
+$amberglow: #fbe525;
+$amberglow-light: #f8e64d;
+$amberglow-light-2x: #f9eb6d;
+$amberglow-light-3x: #f7ec8e;
+$amberglow-light-4x: #fdf5ad;
+$amberglow-light-5x: #faf5cf;
+
+// $radiant-yellow-dark-5x: #8c5101;
+// $radiant-yellow-dark-4x: #a15f06;
+// $radiant-yellow-dark-3x: #b76e0c;
+// $radiant-yellow-dark-2x: #ce7e13;
+// $radiant-yellow-dark: #e48e1a;
+// $radiant-yellow: #fc9e21;
+// $radiant-yellow-light: #feab47;
+// $radiant-yellow-light-2x: #feb868;
+// $radiant-yellow-light-3x: #fdc586;
+// $radiant-yellow-light-4x: #fad2a4;
+// $radiant-yellow-light-5x: #f5dfc3;
+
+// $radiant-yellow-dark-5x: #0d184a;
+// $radiant-yellow-dark-4x: #1a3093;
+// $radiant-yellow-dark-3x: #1e35a0;
+// $radiant-yellow-dark-2x: #203aae;
+// $radiant-yellow-dark: #2849dc;
+// $radiant-yellow: #3056ff;
+// $radiant-yellow-light: #496afc;
+// $radiant-yellow-light-2x: #5b79fb;
+// $radiant-yellow-light-3x: #7b92f8;
+// $radiant-yellow-light-4x: #abb9fa;
+// $radiant-yellow-light-5x: #c0caf9;
+
+$radiant-yellow-dark-5x: #8c6e03;
+$radiant-yellow-dark-4x: #9b7e13;
+$radiant-yellow-dark-3x: #bc9918;
+$radiant-yellow-dark-2x: #cca61a;
+$radiant-yellow-dark: #e0b51c;
+$radiant-yellow: #f8c91f;
+$radiant-yellow-light: #f4c92d;
+$radiant-yellow-light-2x: #fcd64e;
+$radiant-yellow-light-3x: #f9db6d;
+$radiant-yellow-light-4x: #f6e193;
+$radiant-yellow-light-5x: #f8e7ab;
+
 
 $beluga-dark-5x: #181715;
 $beluga-dark-4x: #27333e;

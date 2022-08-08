@@ -67,7 +67,7 @@ const Integration = () => {
               </p>
             </div>
 
-            <MoreInfoButton text="Explore all integration" to="#!" />
+            {/* <MoreInfoButton text="Explore all integration" to="#!" /> */}
           </Col>
         </Row>
       </Container>

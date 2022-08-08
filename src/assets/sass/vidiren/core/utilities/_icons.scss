@@ -68,3 +68,8 @@ img {
     @include center(xy);
   }
 }
+
+.icongrey {
+  color: rgb(107, 106, 106);
+  font-weight: bold;
+}

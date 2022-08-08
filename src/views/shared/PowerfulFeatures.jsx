@@ -86,14 +86,14 @@ const PowerfulFeatures = () => {
               </p>
 
               <MoreInfoButton
-                className="btn btn-primary text-contrast bold"
+                className="btn btn-alternate text-contrast bold"
                 text="Know More"
                 to="#!"
               />
             </div>
           </Col>
 
-          <Col lg="7" className="pr-lg-6">
+          <Col lg="7" className="pr-lg-6 ">
             <Row>
               <Col lg="6" className="rotated-cards">
                 {createCards(0)}

@@ -88,7 +88,7 @@ const Heading = () => {
             <h1 className="display-4 display-md-2 mt-1">
               <span className="bold">Vidiren</span>
             </h1>
-            <p className="lead bold text-primary">
+            <p className="lead bold ">
               Shaping the flow of electrons &nbsp;
               <span className="head-line-2">
                 to advance information technologies

@@ -8,8 +8,8 @@ const Subscribe = () => {
       <Container className="bring-to-front">
         <div className="shadow rounded p-5 bg-contrast overflow-hidden">
           <div className="section-heading text-center">
-            <h2 className="heading-line">Stay tunned</h2>
-            <p className="lead text-alternate">
+            <h2 className="heading-line">Stay tuned</h2>
+            <p className="lead text">
               Receive everything Vidiren right in your inbox
             </p>
           </div>
