@@ -14,7 +14,7 @@ import "./vidiren.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={(props) => <Index {...props} />} />
+      <Route path="/about" exact render={(props) => <Index {...props} />} />
 
       {/* <Route
         path="/alter-1"
@@ -32,7 +32,7 @@ ReactDOM.render(
         render={(props) => <Alternative3 {...props} />}
       /> */}
 
-      <Redirect to="/" />
+      <Redirect to="/about" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
