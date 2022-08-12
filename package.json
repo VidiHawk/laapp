@@ -13,7 +13,7 @@
     "video ecommerce"
   ],
   "author": "Vidi Rendering Technologies Ltd",
-  "homepage": "https://vidiswift.com",
+  "homepage": "https://vidiswift/about.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
