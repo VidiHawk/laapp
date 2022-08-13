@@ -19,7 +19,7 @@ ReactDOM.render(
       <Route path="/" exact render={(props) => <Index {...props} />} />
       <Route path="/terms" exact render={(props) => <Terms {...props} />} />
       <Route path="/privacy" exact render={(props) => <Privacy {...props} />} />
-      <Route
+      {/* <Route
         path="/alter-1"
         exact
         render={(props) => <Alternative1 {...props} />}
@@ -28,7 +28,7 @@ ReactDOM.render(
         path="/alter-3"
         exact
         render={(props) => <Alternative3 {...props} />}
-      />
+      /> */}
 
       <Redirect to="/" />
     </Switch>
