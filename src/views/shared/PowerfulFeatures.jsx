@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import PowerfulCard from "./PowerfulCard.jsx";
-import MoreInfoButton from "components/MoreInfoButton.jsx";
+// import MoreInfoButton from "components/MoreInfoButton.jsx";
 
 const createCards = (use) => {
   let features = [];
@@ -71,9 +71,9 @@ const PowerfulFeatures = () => {
           <Col lg="5" className="order-lg-last" id="product">
             <div className="section-heading">
               <p className="px-2 text-alternate text-uppercase bold">
-                Featured product
+                The future of online shopping
               </p>
-              <h2 className="heading-line">The future of online shopping</h2>
+              <h2 className="heading-line">Vidi Commerce™</h2>
 
               <p className="lead text-muted my-4 semi-bold">
                 The first video website builder in the world
@@ -85,11 +85,17 @@ const PowerfulFeatures = () => {
                 and tap to add products to your cart{" "}
               </p>
 
-              <MoreInfoButton
+              {/* <MoreInfoButton
                 className="btn btn-alternate text-contrast bold"
                 text="Know More"
-                to="#!"
-              />
+                to="https://www.vidicommerce.com/"
+              /> */}
+              <a
+                href="https://www.vidicommerce.com/"
+                className="more-link btn btn-alternate text-contrast bold"
+              >
+                Learn More
+              </a>
             </div>
           </Col>
 

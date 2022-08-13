@@ -8,14 +8,18 @@ const Subscribe = () => {
       <Container className="bring-to-front">
         <div className="shadow rounded p-5 bg-contrast overflow-hidden">
           <div className="section-heading text-center">
-            <h2 className="heading-line">Stay tuned</h2>
+            <h2 className="heading-line">Stay tuned!</h2>
             <p className="lead text">
-              Receive everything Vidiren right in your inbox
+              {" "}
+              We will be announcing our next big thing soon.
             </p>
+            {/* <p className="lead text">
+              Receive everything Vidiren right in your inbox
+            </p> */}
           </div>
 
           <div className="mx-auto position-relative form-wrapper">
-            <form
+            {/*  <form
               className="form text-center"
               data-response-message-animation="slide-in-left"
             >
@@ -42,7 +46,7 @@ const Subscribe = () => {
                 We sent you an email with a link to get started. You’ll be in
                 your account in no time.
               </p>
-            </div>
+            </div>*/}
           </div>
         </div>
       </Container>

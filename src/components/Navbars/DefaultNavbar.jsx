@@ -101,22 +101,30 @@ class DefaultNavbar extends React.Component {
 
             <Nav className="nav navbar-nav ml-auto" navbar>
               <NavItem>
-                <NavLink className="nav-Nav.link" href="#home">
+                <NavLink className="nav-Nav.link" href="/#home">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-Nav.link" href="#features">
+                <NavLink className="nav-Nav.link" href="/#features">
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-Nav.link" href="#product">
+                <NavLink className="nav-Nav.link" href="/#product">
                   Products
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-Nav.link" href="#contact">
+                <NavLink
+                  className="nav-Nav.link"
+                  href="https://www.vidicommerce.com"
+                >
+                  Vidi Commerce™
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-Nav.link" href="/#contact">
                   Contact
                 </NavLink>
               </NavItem>

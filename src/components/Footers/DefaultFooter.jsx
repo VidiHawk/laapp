@@ -28,13 +28,19 @@ const DefaultFooter = () => {
 
           <Col md="2">
             <Nav className="flex-column" tag="nav">
-              <NavLink className="py-2 text-contrast" href="#">
+              <NavLink className="py-2 text-contrast" href="/#features">
                 About
               </NavLink>
-              <NavLink className="py-2 text-contrast" href="#">
-                Services
+              <NavLink
+                className="py-2 text-contrast"
+                href="https://www.vidicommerce.com"
+              >
+                Vidi Commerce™
               </NavLink>
-              <NavLink className="py-2 text-contrast" href="#">
+              <NavLink
+                className="py-2 text-contrast"
+                href="https://www.vidicommerce.com/blog"
+              >
                 Blog
               </NavLink>
             </Nav>
@@ -42,19 +48,19 @@ const DefaultFooter = () => {
 
           <Col md="2">
             <Nav className="flex-column" tag="nav">
-              <NavLink className="py-2 text-contrast" href="#">
-                Features
+              <NavLink className="py-2 text-contrast" href="/terms">
+                Terms of Use
               </NavLink>
-              <NavLink className="py-2 text-contrast" href="#">
-                API
+              <NavLink className="py-2 text-contrast" href="/privacy">
+                Privacy Policy
               </NavLink>
-              <NavLink className="py-2 text-contrast" href="#">
-                Customers
+              <NavLink className="py-2 text-contrast" href="/#contact">
+                Contact
               </NavLink>
             </Nav>
           </Col>
 
-          <Col md="2">
+          {/* <Col md="2">
             <Nav className="flex-column" tag="nav">
               <NavLink className="nav-item py-2 text-contrast" href="#">
                 Careers
@@ -66,7 +72,7 @@ const DefaultFooter = () => {
                 Search
               </NavLink>
             </Nav>
-          </Col>
+          </Col> */}
 
           <Col md="2">
             {/* <h6 className="py-2 small">Follow us</h6> */}

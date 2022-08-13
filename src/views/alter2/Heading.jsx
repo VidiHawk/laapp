@@ -102,7 +102,7 @@ const Heading = () => {
 
             <nav className="nav my-6">
               <a
-                href="mailto:info@vidiren.com"
+                href="/#contact"
                 className="btn btn-rounded btn-alternate mr-2 mr-md-5"
               >
                 Contact us{" "}
